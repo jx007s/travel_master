@@ -1,6 +1,6 @@
 import sys
-#import pysqlite3                           ##local 에서 할 경우 주석 처리
-#sys.modules["sqlite3"] = pysqlite3
+import pysqlite3                           ##local 에서 할 경우 주석 처리
+sys.modules["sqlite3"] = pysqlite3
 
 import streamlit as st
 from crewai import Crew, Process, Task
